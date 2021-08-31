@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.state_management_studies">
+    package="com.example.crud_firebase_flutter">
    <application
-        android:label="state_management_studies"
+        android:label="crud_firebase_flutter"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

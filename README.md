@@ -1,4 +1,4 @@
-# state_management_studies
+# shop
 
 A new Flutter project.
 

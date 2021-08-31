@@ -1,6 +1,6 @@
 {
-    "name": "state_management_studies",
-    "short_name": "state_management_studies",
+    "name": "crud_firebase_flutter",
+    "short_name": "crud_firebase_flutter",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

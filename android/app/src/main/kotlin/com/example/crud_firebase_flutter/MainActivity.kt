@@ -1,4 +1,4 @@
-package com.example.state_management_studies
+package com.example.crud_firebase_flutter
 
 import io.flutter.embedding.android.FlutterActivity
 

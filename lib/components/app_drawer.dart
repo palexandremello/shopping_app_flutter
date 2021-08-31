@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:state_management_studies/utils/app_routes.dart';
+import 'package:shop/utils/app_routes.dart';
 
 class AppDrawer extends StatelessWidget {
   const AppDrawer({Key? key}) : super(key: key);
@@ -10,31 +10,37 @@ class AppDrawer extends StatelessWidget {
       child: Column(
         children: [
           AppBar(
-            title: Text("Welcome user!!"),
+            title: Text('Bem vindo Uusário!'),
             automaticallyImplyLeading: false,
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.shop),
-            title: Text("Shop"),
+            title: Text('Loja'),
             onTap: () {
-              Navigator.of(context).pushReplacementNamed(AppRoutes.HOME);
+              Navigator.of(context).pushReplacementNamed(
+                AppRoutes.HOME,
+              );
             },
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.payment),
-            title: Text("Orders"),
+            title: Text('Pedidos'),
             onTap: () {
-              Navigator.of(context).pushReplacementNamed(AppRoutes.ORDERS);
+              Navigator.of(context).pushReplacementNamed(
+                AppRoutes.ORDERS,
+              );
             },
           ),
           Divider(),
           ListTile(
-            leading: Icon(Icons.payment),
-            title: Text("Management Products"),
+            leading: Icon(Icons.edit),
+            title: Text('Gerenciar Produtos'),
             onTap: () {
-              Navigator.of(context).pushReplacementNamed(AppRoutes.PRODUCTS);
+              Navigator.of(context).pushReplacementNamed(
+                AppRoutes.PRODUCTS,
+              );
             },
           ),
         ],
